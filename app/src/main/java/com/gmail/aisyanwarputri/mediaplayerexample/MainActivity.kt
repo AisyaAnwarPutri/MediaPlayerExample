@@ -19,7 +19,9 @@ class MainActivity : AppCompatActivity() {
             mediaPlayer?.seekTo(position)
             mediaPlayer?.start()
             pause = false
+
             //playing audio when in paused state
+
         } else {
             if (mediaPlayer == null) {
                 mediaPlayer = MediaPlayer.create(applicationContext,
